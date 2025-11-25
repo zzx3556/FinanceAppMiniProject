@@ -1,0 +1,366 @@
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.csproj.AssemblyReference.cache
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.AssemblyInfoInputs.cache
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.AssemblyInfo.cs
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.csproj.CoreCompileInputs.cache
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_FinanceApp.UnitTest
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\testhost.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.deps.json
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.runtimeconfig.json
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.exe
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\testhost.exe
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.deps.json
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.runtimeconfig.json
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.pdb
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Base.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Controls.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.DesignerSupport.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Dialogs.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Markup.Xaml.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Markup.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Metal.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.MicroCom.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.OpenGL.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Vulkan.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Controls.ColorPicker.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Desktop.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Diagnostics.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Fonts.Inter.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.FreeDesktop.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Native.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Remote.Protocol.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Skia.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Themes.Fluent.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Themes.Simple.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Win32.Automation.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Win32.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.X11.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Castle.Core.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\CommunityToolkit.Mvvm.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\HarfBuzzSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\MicroCom.Runtime.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Moq.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\MySqlConnector.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\SkiaSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Tmds.DBus.Protocol.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.abstractions.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.assert.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.core.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.pdb
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceA.5B5C2FC6.Up2Date
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\refint\FinanceApp.UnitTest.dll
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.pdb
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.genruntimeconfig.cache
+D:\Application\qz\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\ref\FinanceApp.UnitTest.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_FinanceApp.UnitTest
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\testhost.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.deps.json
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.runtimeconfig.json
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.exe
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\testhost.exe
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.reporters.netcoreapp10.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.runner.utility.netcoreapp10.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.deps.json
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.runtimeconfig.json
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.UnitTest.pdb
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Base.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Controls.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.DesignerSupport.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Dialogs.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Markup.Xaml.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Markup.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Metal.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.MicroCom.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.OpenGL.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Vulkan.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Controls.ColorPicker.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Desktop.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Diagnostics.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Fonts.Inter.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.FreeDesktop.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Native.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Remote.Protocol.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Skia.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Themes.Fluent.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Themes.Simple.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Win32.Automation.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.Win32.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Avalonia.X11.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Castle.Core.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\CommunityToolkit.Mvvm.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\HarfBuzzSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\MicroCom.Runtime.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.CodeCoverage.Shim.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CoreUtilities.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.PlatformAbstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.ObjectModel.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CommunicationUtilities.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.CrossPlatEngine.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.TestPlatform.Utilities.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Microsoft.VisualStudio.TestPlatform.Common.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Moq.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\MySqlConnector.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Newtonsoft.Json.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\NuGet.Frameworks.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\SkiaSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\System.Diagnostics.EventLog.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\System.IO.Pipelines.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\Tmds.DBus.Protocol.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.abstractions.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.assert.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.core.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\xunit.execution.dotnet.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CoreUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.ObjectModel.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\cs\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\de\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\es\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\fr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\it\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ja\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ko\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pl\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\pt-BR\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\ru\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\tr\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hans\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\av_libglesv2.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\av_libglesv2.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\av_libglesv2.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libAvaloniaNative.dylib
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-loongarch64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-arm\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-arm64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-loongarch64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-riscv64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-riscv64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x64\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x86\native\libHarfBuzzSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libHarfBuzzSharp.dylib
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\libHarfBuzzSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\libHarfBuzzSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\libHarfBuzzSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm\native\libSkiaSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-arm64\native\libSkiaSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-musl-x64\native\libSkiaSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\linux-x64\native\libSkiaSharp.so
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\osx\native\libSkiaSharp.dylib
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-arm64\native\libSkiaSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x64\native\libSkiaSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win-x86\native\libSkiaSharp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.Messages.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Diagnostics.EventLog.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\bin\Debug\net8.0\FinanceApp.pdb
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.csproj.AssemblyReference.cache
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\Avalonia\Resources.Inputs.cache
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.GeneratedMSBuildEditorConfig.editorconfig
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.AssemblyInfoInputs.cache
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.AssemblyInfo.cs
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.csproj.CoreCompileInputs.cache
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceA.5B5C2FC6.Up2Date
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\refint\FinanceApp.UnitTest.dll
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.pdb
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\FinanceApp.UnitTest.genruntimeconfig.cache
+E:\RiderProjects\FinanceApp (2)\FinanceApp\FinanceApp.UnitTest\obj\Debug\net8.0\ref\FinanceApp.UnitTest.dll

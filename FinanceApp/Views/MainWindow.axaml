@@ -1,0 +1,22 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="FinanceApp.Views.MainWindow"
+        Title="记账软件" Height="600" Width="1000"
+        x:CompileBindings="False">
+
+    <Grid>
+        <!-- 顶部导航 -->
+        <Grid RowDefinitions="Auto,*">
+            <!-- 只保留页面标题，移除导航按钮 -->
+            <Grid ColumnDefinitions="*,Auto" Margin="10">
+                <TextBlock Text="{Binding CurrentPageTitle}" 
+                           FontSize="18" 
+                           FontWeight="Bold" 
+                           VerticalAlignment="Center"/>
+            </Grid>
+
+            <!-- 内容区域 -->
+            <ContentControl Grid.Row="1" Content="{Binding CurrentViewModel}"/>
+        </Grid>
+    </Grid>
+</Window>

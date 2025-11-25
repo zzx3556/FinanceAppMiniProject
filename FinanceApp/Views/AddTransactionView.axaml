@@ -1,0 +1,172 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:views="clr-namespace:FinanceApp.Views"
+             x:Class="FinanceApp.Views.AddTransactionView"
+             x:CompileBindings="False">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题行 -->
+        <Grid Grid.Row="0" Margin="0,0,0,30">
+            <TextBlock Text="添加新交易" 
+                       FontSize="24" 
+                       FontWeight="Bold" 
+                       HorizontalAlignment="Center"
+                       VerticalAlignment="Center"/>
+            
+            <Button x:Name="TopRightNavButton"
+                    Content="🏠 返回首页" 
+                    Command="{Binding NavigateToDashboardCommand}"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Padding="12,6"
+                    Background="#2196F3"
+                    Foreground="White"
+                    BorderThickness="0"
+                    CornerRadius="6"/>
+        </Grid>
+
+        <!-- 表单内容 - 居中显示 -->
+        <Border Grid.Row="1" 
+                Background="White"
+                BorderBrush="#E0E0E0"
+                BorderThickness="1"
+                CornerRadius="8"
+                Padding="30"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+            <Grid Width="400">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="Auto"/>
+                </Grid.RowDefinitions>
+
+                <!-- 日期 -->
+                <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="0,0,0,15">
+                    <TextBlock Text="日期:" 
+                               Width="80" 
+                               VerticalAlignment="Center"
+                               FontWeight="SemiBold"/>
+                    <DatePicker x:Name="DatePicker" 
+                                Width="250"
+                                HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <!-- 金额 -->
+                <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,15">
+                    <TextBlock Text="金额:" 
+                               Width="80" 
+                               VerticalAlignment="Center"
+                               FontWeight="SemiBold"/>
+                    <TextBox x:Name="AmountTextBox" 
+                             Width="250" 
+                             Text="0.00"
+                             HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <!-- 类型 -->
+                <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="0,0,0,15">
+                    <TextBlock Text="类型:" 
+                               Width="80" 
+                               VerticalAlignment="Center"
+                               FontWeight="SemiBold"/>
+                    <TextBox x:Name="TypeTextBox" 
+                             Width="250" 
+                             Watermark="输入'收入'或'支出'"
+                             HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <!-- 分类 -->
+                <StackPanel Grid.Row="3" Orientation="Horizontal" Margin="0,0,0,15">
+                    <TextBlock Text="分类:" 
+                               Width="80" 
+                               VerticalAlignment="Center"
+                               FontWeight="SemiBold"/>
+                    <TextBox x:Name="CategoryTextBox" 
+                             Width="250" 
+                             Watermark="例如: 餐饮、工资、购物等"
+                             HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <!-- 账户 -->
+                <StackPanel Grid.Row="4" Orientation="Horizontal" Margin="0,0,0,15">
+                    <TextBlock Text="账户:" 
+                               Width="80" 
+                               VerticalAlignment="Center"
+                               FontWeight="SemiBold"/>
+                    <TextBox x:Name="AccountTextBox" 
+                             Width="250" 
+                             Watermark="例如: 微信、支付宝、银行卡等"
+                             HorizontalAlignment="Left"/>
+                </StackPanel>
+
+                <!-- 描述 -->
+                <StackPanel Grid.Row="5" Orientation="Horizontal" Margin="0,0,0,20">
+                    <TextBlock Text="描述:" 
+                               Width="80" 
+                               VerticalAlignment="Top"
+                               FontWeight="SemiBold"/>
+                    <TextBox x:Name="DescriptionTextBox" 
+                             Width="250" 
+                             Height="80" 
+                             AcceptsReturn="True"
+                             Watermark="交易描述"
+                             HorizontalAlignment="Left"/>
+                </StackPanel>
+            </Grid>
+        </Border>
+
+        <!-- 重复交易检测状态显示 -->
+        <Border Grid.Row="2" 
+                Background="{Binding DuplicateMessage, Converter={x:Static views:StringConverters.DuplicateMessageToBackground}}"
+                Padding="15,8"
+                CornerRadius="6"
+                Margin="0,20,0,20"
+                HorizontalAlignment="Center"
+                Width="400">
+            <TextBlock x:Name="DuplicateMessageText" 
+                       Text="{Binding DuplicateMessage}"
+                       Foreground="{Binding DuplicateMessage, Converter={x:Static views:StringConverters.DuplicateMessageToForeground}}"
+                       FontWeight="SemiBold"
+                       HorizontalAlignment="Center"
+                       TextWrapping="Wrap"/>
+        </Border>
+
+        <!-- 按钮 -->
+        <StackPanel Grid.Row="3" 
+                    Orientation="Horizontal" 
+                    Spacing="15" 
+                    HorizontalAlignment="Center">
+            <Button x:Name="CancelButton" 
+                    Content="取消" 
+                    Width="100"
+                    Height="36"
+                    Background="#F5F5F5"
+                    Foreground="#666666"
+                    BorderThickness="1"
+                    BorderBrush="#E0E0E0"
+                    CornerRadius="6"/>
+            <Button x:Name="SaveButton" 
+                    Content="保存" 
+                    Width="100"
+                    Height="36"
+                    Background="#4CAF50" 
+                    Foreground="White"
+                    BorderThickness="0"
+                    CornerRadius="6"
+                    FontWeight="SemiBold"/>
+        </StackPanel>
+
+    </Grid>
+</UserControl>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AvaloniaProject">
+    <option name="projectPerEditor">
+      <map>
+        <entry key="FinanceApp/App.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/AddTransactionView.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/BillView.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/DashboardView.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/MainView.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/MainWindow.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/StatisticsView.axaml" value="FinanceApp/FinanceApp.csproj" />
+        <entry key="FinanceApp/Views/TransactionsView.axaml" value="FinanceApp/FinanceApp.csproj" />
+      </map>
+    </option>
+  </component>
+</project>

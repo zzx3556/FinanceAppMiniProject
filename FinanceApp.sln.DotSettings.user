@@ -1,0 +1,28 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=798D2F27_002D0EDB_002D49D6_002D85BF_002D89114D126EAA_002Fd_003AViews_002Ff_003AStatisticsView_002Eaxaml_002Fz_003A2_002D0/@EntryIndexedValue">ExplicitlyExcluded</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=548d50a4_002Dfcf9_002D44ae_002D847f_002Df868b3eaa76e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="AddTransactionViewModelTests" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.AddTransactionViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.BillViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.DashboardViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.MainWindowViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.StatisticsViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.TransactionsViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.Services.TransactionServiceBusinessTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.Services.TransactionServiceQueryTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	
+	
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=f0f5dd7a_002Da5a8_002D435f_002D86a8_002D541567f24a4f/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="TransactionServiceTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.Services.TransactionServiceBusinessTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.Services.TransactionServiceQueryTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.BillViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.AddTransactionViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.DashboardViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.MainWindowViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.StatisticsViewModelTests&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::BA3C6130-6925-483C-B875-836EC1305EA4::net8.0::FinanceApp.Tests.ViewModels.TransactionsViewModelTests&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

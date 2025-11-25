@@ -1,0 +1,109 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FinanceApp.Views.DashboardView">
+    <StackPanel Margin="20" Spacing="20">
+        
+        <!-- 标题和月份选择 -->
+        <StackPanel HorizontalAlignment="Center" Spacing="10">
+            <TextBlock Text="财务概览" FontSize="24" FontWeight="Bold" HorizontalAlignment="Center"/>
+            
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Spacing="10">
+                <TextBlock Text="选择月份:" VerticalAlignment="Center"/>
+                <DatePicker x:Name="MonthPicker" 
+                          Width="120"/>
+                <TextBlock x:Name="MonthDisplayText" 
+                          FontSize="16" 
+                          FontWeight="Bold"
+                          VerticalAlignment="Center"/>
+                <Button x:Name="ReloadButton" Content="刷新" Padding="10,5"/>
+            </StackPanel>
+        </StackPanel>
+
+        <!-- 加载指示器 -->
+        <Border x:Name="LoadingIndicator" 
+                Background="#CCFFFFFF" 
+                HorizontalAlignment="Stretch"
+                VerticalAlignment="Stretch"
+                IsVisible="False">
+            <TextBlock Text="加载中..." HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        </Border>
+
+        <!-- 财务数据展示 -->
+        <Grid HorizontalAlignment="Center">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            
+            <!-- 收入 -->
+            <Border Grid.Column="0" 
+                    Background="#E8F5E8" 
+                    Padding="20" 
+                    Margin="10"
+                    CornerRadius="10">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="总收入" FontSize="14" Foreground="Gray"/>
+                    <TextBlock x:Name="IncomeText" 
+                              FontSize="24" 
+                              FontWeight="Bold"
+                              Foreground="Green"/>
+                </StackPanel>
+            </Border>
+            
+            <!-- 支出 -->
+            <Border Grid.Column="1" 
+                    Background="#FFEBEE" 
+                    Padding="20" 
+                    Margin="10"
+                    CornerRadius="10">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="总支出" FontSize="14" Foreground="Gray"/>
+                    <TextBlock x:Name="ExpenseText" 
+                              FontSize="24" 
+                              FontWeight="Bold"
+                              Foreground="Red"/>
+                </StackPanel>
+            </Border>
+            
+            <!-- 余额 -->
+            <Border Grid.Column="2" 
+                    Background="#E3F2FD" 
+                    Padding="20" 
+                    Margin="10"
+                    CornerRadius="10">
+                <StackPanel HorizontalAlignment="Center">
+                    <TextBlock Text="余额" FontSize="14" Foreground="Gray"/>
+                    <TextBlock x:Name="BalanceText" 
+                              FontSize="24" 
+                              FontWeight="Bold"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 导航按钮 -->
+        <StackPanel HorizontalAlignment="Center" Orientation="Horizontal" Spacing="10">
+            <Button x:Name="AddTransactionButton" 
+                    Content="添加交易" 
+                    Background="Green" 
+                    Foreground="White"
+                    Padding="15,8"/>
+            <Button x:Name="TransactionsButton" 
+                    Content="交易明细" 
+                    Background="Blue" 
+                    Foreground="White"
+                    Padding="15,8"/>
+            <Button x:Name="StatisticsButton" 
+                    Content="统计分析" 
+                    Background="Purple" 
+                    Foreground="White"
+                    Padding="15,8"/>
+            <Button x:Name="BillsButton" 
+                    Content="年度账单" 
+                    Background="Orange" 
+                    Foreground="White"
+                    Padding="15,8"/>
+        </StackPanel>
+
+    </StackPanel>
+</UserControl>
