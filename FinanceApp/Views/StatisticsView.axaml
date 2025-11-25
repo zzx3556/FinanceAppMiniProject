@@ -1,0 +1,91 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FinanceApp.Views.StatisticsView"
+             x:CompileBindings="False">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题行：左侧显示页面标题，右侧显示导航按钮 -->
+        <Grid Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="统计分析" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+            
+            <!-- 右上角导航按钮 -->
+            <Button Content="🏠 返回首页" 
+                    Command="{Binding NavigateToDashboardCommand}"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Padding="10,5"
+                    Background="#2196F3"
+                    Foreground="White"
+                    BorderThickness="0"
+                    CornerRadius="4"/>
+        </Grid>
+
+        <!-- 筛选条件 -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="0,0,0,20">
+            <StackPanel>
+                <TextBlock Text="开始日期" FontSize="12" Foreground="Gray"/>
+                <DatePicker SelectedDate="{Binding StartDate, Mode=TwoWay}" Width="120"/>
+            </StackPanel>
+            
+            <StackPanel>
+                <TextBlock Text="结束日期" FontSize="12" Foreground="Gray"/>
+                <DatePicker SelectedDate="{Binding EndDate, Mode=TwoWay}" Width="120"/>
+            </StackPanel>
+            
+            <Button Content="生成统计" 
+                    Command="{Binding LoadStatisticsCommand}" 
+                    VerticalAlignment="Bottom" 
+                    Margin="0,0,0,5"
+                    Background="#4CAF50"
+                    Foreground="White"/>
+            
+            <!-- 加载指示器 -->
+            <TextBlock Text="加载中..." 
+                       IsVisible="{Binding IsLoading}"
+                       VerticalAlignment="Center"
+                       Foreground="Blue"
+                       FontWeight="Bold"/>
+        </StackPanel>
+
+        <!-- 分类统计 -->
+        <ScrollViewer Grid.Row="2" VerticalScrollBarVisibility="Auto">
+            <StackPanel>
+                <TextBlock Text="支出分类统计" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+                
+                <ItemsControl ItemsSource="{Binding CategorySummary}">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="White" BorderBrush="#E0E0E0" BorderThickness="1" Margin="0,2" Padding="10">
+                                <Grid ColumnDefinitions="100,*,Auto" Margin="0,2">
+                                    <TextBlock Text="{Binding Key}" Grid.Column="0" VerticalAlignment="Center" FontWeight="SemiBold"/>
+                                    
+                                    <!-- 进度条 -->
+                                    <ProgressBar Value="{Binding Value}" 
+                                                 Maximum="{Binding Path=DataContext.MaxCategoryValue, RelativeSource={RelativeSource AncestorType=ItemsControl}}"
+                                                 Height="20" 
+                                                 Grid.Column="1"
+                                                 Margin="10,0"
+                                                 VerticalAlignment="Center"
+                                                 Background="#E0E0E0"
+                                                 Foreground="#FF5722"/>
+                                    
+                                    <TextBlock Text="{Binding Value, StringFormat='¥{0:F2}'}" 
+                                               Grid.Column="2" 
+                                               VerticalAlignment="Center"
+                                               FontWeight="SemiBold"
+                                               Foreground="#333"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</UserControl>

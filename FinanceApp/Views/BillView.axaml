@@ -1,0 +1,138 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FinanceApp.Views.BillView"
+             x:CompileBindings="False">
+    
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题行：左侧显示页面标题，右侧显示导航按钮 -->
+        <Grid Grid.Row="0" Margin="0,0,0,20">
+            <TextBlock Text="年度账单" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+            
+            <!-- 右上角导航按钮 -->
+            <Button Content="🏠 返回首页" 
+                    Command="{Binding NavigateToDashboardCommand}"
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Padding="10,5"
+                    Background="#2196F3"
+                    Foreground="White"
+                    BorderThickness="0"
+                    CornerRadius="4"/>
+        </Grid>
+
+        <!-- 年份选择 -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="0,0,0,20">
+            <TextBlock Text="选择年份:" VerticalAlignment="Center"/>
+            <ComboBox x:Name="YearComboBox" Width="120"/>
+        </StackPanel>
+
+        <!-- 年度汇总卡片 -->
+        <Grid Grid.Row="2" Margin="0,0,0,30">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- 年度收入 -->
+            <Border Grid.Column="0" Background="#E8F5E8" CornerRadius="10" Padding="20" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="年度收入" FontSize="14" Foreground="#666"/>
+                    <TextBlock x:Name="YearlyIncomeText"
+                               FontSize="24" 
+                               FontWeight="Bold"
+                               Foreground="#2E7D32"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 年度支出 -->
+            <Border Grid.Column="1" Background="#FFEBEE" CornerRadius="10" Padding="20" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="年度支出" FontSize="14" Foreground="#666"/>
+                    <TextBlock x:Name="YearlyExpenseText"
+                               FontSize="24" 
+                               FontWeight="Bold"
+                               Foreground="#C62828"/>
+                </StackPanel>
+            </Border>
+
+            <!-- 年度余额 -->
+            <Border Grid.Column="2" Background="#E3F2FD" CornerRadius="10" Padding="20" Margin="5">
+                <StackPanel>
+                    <TextBlock Text="年度余额" FontSize="14" Foreground="#666"/>
+                    <TextBlock x:Name="YearlyBalanceText"
+                               FontSize="24" 
+                               FontWeight="Bold"
+                               Foreground="#2196F3"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- 月度汇总 -->
+        <Grid Grid.Row="3">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <!-- 月度汇总标题 -->
+            <TextBlock Grid.Row="0" Text="月度汇总" FontSize="16" FontWeight="Bold" Margin="0,0,0,10"/>
+            
+            <!-- 月度汇总列表 - 可滑动 -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto" HorizontalScrollBarVisibility="Disabled">
+                <ItemsControl x:Name="MonthlySummariesControl">
+                    <ItemsControl.ItemTemplate>
+                        <DataTemplate>
+                            <Border Background="#F5F5F5" CornerRadius="5" Margin="0,5" Padding="15">
+                                <Grid>
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="100"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                        <ColumnDefinition Width="*"/>
+                                    </Grid.ColumnDefinitions>
+                                    
+                                    <TextBlock Grid.Column="0" 
+                                               Text="{Binding Month}" 
+                                               FontWeight="Bold" 
+                                               VerticalAlignment="Center"/>
+                                    <TextBlock Grid.Column="1" 
+                                               Text="{Binding Income, StringFormat='收入: ¥{0:F2}'}" 
+                                               Foreground="#2E7D32" 
+                                               VerticalAlignment="Center"/>
+                                    <TextBlock Grid.Column="2" 
+                                               Text="{Binding Expense, StringFormat='支出: ¥{0:F2}'}" 
+                                               Foreground="#C62828" 
+                                               VerticalAlignment="Center"/>
+                                    <TextBlock Grid.Column="3" 
+                                               Text="{Binding Balance, StringFormat='结余: ¥{0:F2}'}" 
+                                               Foreground="#2196F3" 
+                                               VerticalAlignment="Center"/>
+                                </Grid>
+                            </Border>
+                        </DataTemplate>
+                    </ItemsControl.ItemTemplate>
+                </ItemsControl>
+            </ScrollViewer>
+        </Grid>
+
+        <!-- 加载指示器 -->
+        <Border Grid.Row="0" Grid.RowSpan="4" 
+                x:Name="LoadingIndicator"
+                Background="#80000000" 
+                VerticalAlignment="Stretch" HorizontalAlignment="Stretch"
+                IsVisible="False">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <ProgressBar IsIndeterminate="True" Width="200" Height="10" Margin="0,0,0,10"/>
+                <TextBlock Text="加载中..." Foreground="White" HorizontalAlignment="Center"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</UserControl>

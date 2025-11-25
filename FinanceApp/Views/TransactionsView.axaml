@@ -1,0 +1,69 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             x:Class="FinanceApp.Views.TransactionsView"
+             x:CompileBindings="False">
+
+    <Grid Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- 标题行 -->
+        <Grid Grid.Row="0" Margin="0,0,0,15">
+            <TextBlock Text="交易明细" FontSize="20" FontWeight="Bold" VerticalAlignment="Center"/>
+            <Button x:Name="BackToDashboardButton"
+                    Content="🏠 返回首页" 
+                    HorizontalAlignment="Right"
+                    VerticalAlignment="Center"
+                    Padding="10,5"
+                    Background="#2196F3"
+                    Foreground="White"/>
+        </Grid>
+
+        <!-- 搜索框 -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Spacing="10" Margin="0,0,0,15">
+            <TextBox x:Name="SearchTextBox" 
+                     Watermark="搜索分类、账户、备注..." 
+                     Width="200"/>
+            <Button x:Name="SearchButton"
+                    Content="搜索" 
+                    Background="#4CAF50"
+                    Foreground="White"/>
+            <Button x:Name="ResetButton"
+                    Content="重置" 
+                    Background="#9E9E9E"
+                    Foreground="White"/>
+            
+            <TextBlock x:Name="LoadingText"
+                       Text="加载中..." 
+                       IsVisible="False"
+                       VerticalAlignment="Center"
+                       Foreground="Blue"/>
+        </StackPanel>
+
+        <!-- 交易列表 -->
+        <Grid Grid.Row="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+            
+            <TextBlock x:Name="RecordCountText"
+                       Text="共找到 0 条记录" 
+                       Margin="0,0,0,5"
+                       FontSize="12"
+                       Foreground="Gray"/>
+            
+            <!-- 使用 ScrollViewer 包装 ListBox 以实现滚动 -->
+            <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                <ListBox x:Name="TransactionsListBox"
+                         Background="White"
+                         BorderThickness="1"
+                         BorderBrush="#E0E0E0"
+                         ScrollViewer.VerticalScrollBarVisibility="Disabled"/> <!-- 禁用内部滚动，使用外部ScrollViewer -->
+            </ScrollViewer>
+        </Grid>
+    </Grid>
+</UserControl>
