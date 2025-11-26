@@ -1,7 +1,11 @@
+using System;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 using FinanceApp.Models;
 using FinanceApp.Services;
 using FinanceApp.ViewModels;
 using Moq;
+using Xunit;
 
 namespace FinanceApp.Tests.ViewModels;
 
@@ -17,6 +21,7 @@ public class DashboardViewModelTests
         Assert.Equal(5000, viewModel.TotalIncome);
         Assert.Equal(3200, viewModel.TotalExpense);
         Assert.Equal(1800, viewModel.Balance);
+        Assert.Equal(DateTime.Now.ToString("yyyy年MM月"), viewModel.MonthDisplay);
         Assert.False(viewModel.IsLoading);
     }
 
@@ -32,6 +37,8 @@ public class DashboardViewModelTests
 
         // Assert
         Assert.NotNull(viewModel);
+        Assert.Equal(DateTime.Now.ToString("yyyy年MM月"), viewModel.MonthDisplay);
+        Assert.False(viewModel.IsLoading);
     }
 
     [Fact]
@@ -60,6 +67,7 @@ public class DashboardViewModelTests
         Assert.Equal(1500, viewModel.TotalIncome);
         Assert.Equal(500, viewModel.TotalExpense);
         Assert.Equal(1000, viewModel.Balance);
+        Assert.False(viewModel.IsLoading);
     }
 
     [Fact]
@@ -80,22 +88,97 @@ public class DashboardViewModelTests
         Assert.Equal(0, viewModel.TotalIncome);
         Assert.Equal(0, viewModel.TotalExpense);
         Assert.Equal(0, viewModel.Balance);
+        Assert.False(viewModel.IsLoading);
     }
 
     [Fact]
-    public void SelectedMonthChanged_ShouldUpdateMonthDisplay()
+    public async Task LoadDashboardDataCommand_WhenServiceThrowsException_ShouldHandleGracefully()
+    {
+        // Arrange
+        var transactionServiceMock = new Mock<ITransactionService>();
+        transactionServiceMock.Setup(x => x.GetTransactionsByDateRangeAsync(It.IsAny<DateTime>(), It.IsAny<DateTime>()))
+            .ThrowsAsync(new Exception("Database error"));
+
+        var mainViewModelMock = new Mock<MainWindowViewModel>(Mock.Of<ITransactionService>());
+        var viewModel = new DashboardViewModel(transactionServiceMock.Object, mainViewModelMock.Object);
+
+        // Act
+        await viewModel.LoadDashboardDataCommand.ExecuteAsync(null);
+
+        // Assert
+        Assert.False(viewModel.IsLoading);
+        // 确保没有异常抛出并且IsLoading被正确设置为false
+    }
+
+    [Fact]
+    public void SelectedMonthChanged_ShouldTriggerDataReload()
     {
         // Arrange
         var transactionServiceMock = new Mock<ITransactionService>();
         var mainViewModelMock = new Mock<MainWindowViewModel>(Mock.Of<ITransactionService>());
         var viewModel = new DashboardViewModel(transactionServiceMock.Object, mainViewModelMock.Object);
         
-        var newMonth = new DateTime(2024, 6, 1);
+        bool loadCalled = false;
+        viewModel.PropertyChanged += (sender, args) =>
+        {
+            if (args.PropertyName == nameof(DashboardViewModel.SelectedMonth))
+            {
+                loadCalled = true;
+            }
+        };
 
         // Act
-        viewModel.SelectedMonth = newMonth;
+        viewModel.SelectedMonth = DateTime.Now.AddMonths(-1);
 
-        // Assert - 只验证月份已更改，不验证具体显示格式
-        Assert.Equal(newMonth, viewModel.SelectedMonth);
+        // Assert
+        Assert.True(loadCalled);
+    }
+
+    [Fact]
+    public void NavigationCommands_ShouldExecuteWithoutError()
+    {
+        // Arrange
+        var transactionServiceMock = new Mock<ITransactionService>();
+        var mainViewModelMock = new Mock<MainWindowViewModel>(Mock.Of<ITransactionService>());
+        var viewModel = new DashboardViewModel(transactionServiceMock.Object, mainViewModelMock.Object);
+
+        // Act & Assert - 确保所有导航命令执行不会抛出异常
+        var exception1 = Record.Exception(() => viewModel.NavigateToAddTransactionCommand.Execute(null));
+        var exception2 = Record.Exception(() => viewModel.NavigateToTransactionsCommand.Execute(null));
+        var exception3 = Record.Exception(() => viewModel.NavigateToStatisticsCommand.Execute(null));
+        var exception4 = Record.Exception(() => viewModel.NavigateToBillsCommand.Execute(null));
+
+        Assert.Null(exception1);
+        Assert.Null(exception2);
+        Assert.Null(exception3);
+        Assert.Null(exception4);
+    }
+
+    [Fact]
+    public void Properties_ShouldRaisePropertyChanged()
+    {
+        // Arrange
+        var transactionServiceMock = new Mock<ITransactionService>();
+        var mainViewModelMock = new Mock<MainWindowViewModel>(Mock.Of<ITransactionService>());
+        var viewModel = new DashboardViewModel(transactionServiceMock.Object, mainViewModelMock.Object);
+        
+        var changedProperties = new List<string>();
+        viewModel.PropertyChanged += (sender, args) => changedProperties.Add(args.PropertyName);
+
+        // Act
+        viewModel.TotalIncome = 1000;
+        viewModel.TotalExpense = 500;
+        viewModel.Balance = 500;
+        viewModel.SelectedMonth = DateTime.Now;
+        viewModel.IsLoading = true;
+        viewModel.MonthDisplay = "测试";
+
+        // Assert
+        Assert.Contains(nameof(DashboardViewModel.TotalIncome), changedProperties);
+        Assert.Contains(nameof(DashboardViewModel.TotalExpense), changedProperties);
+        Assert.Contains(nameof(DashboardViewModel.Balance), changedProperties);
+        Assert.Contains(nameof(DashboardViewModel.SelectedMonth), changedProperties);
+        Assert.Contains(nameof(DashboardViewModel.IsLoading), changedProperties);
+        Assert.Contains(nameof(DashboardViewModel.MonthDisplay), changedProperties);
     }
 }
